@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box; 
+}
+
+main{
+    width: 960px;
+    margin: auto;
+    flex: 1;
+}
+
+body {
+     display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+header{
+    background-color: #3f8f8d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+header h1 {
+   font-size: 30px;
+    color: white;
+}
+
+form fieldset  {
+    border: 2px dotted lightgray;
+    padding: 10px;
+    border-radius: 8px
+}
+img {
+    width: 50px;
+    height: 50px;
+}
+
+section span:nth-child(1){
+    float: left;
+}
+
+input,select{
+    width: 330px;
+}
+
+section span:nth-child(2){
+    float: right;
+}
+table td, table th{
+    padding: 20px;
+}
+table tr:nth-child(even){
+    background-color: #ffd3de;
+    border: 2px solid white;
+
+}
+table tr:nth-child(odd){
+    background-color: #f6b8d1;
+}
+
+thead{
+  background-color: #ffd3de;
+}
+a{
+    text-decoration: none;
+}
+#submitButton{
+      background-color: #609c4d;
+        margin: 5px;
+        padding: 5px 10px;
+        border: 0;
+        box-shadow: none;
+        border-radius: 0px;
+        color: white;
+}
+
+#clearButton{
+    background-color: #ac0d0d;
+    position: relative;
+    left: 70px;
+    bottom: 48px;
+    margin: 5px;
+    padding: 5px 10px;
+    border: 0;
+    box-shadow: none;
+    border-radius: 0px;
+    color: white;
+}
+
+footer{
+    background-color: #5dc0a6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
